@@ -1,0 +1,590 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>Project Summary | Ty&#39;s blog</title>
+  <meta name="author" content="Ty">
+  
+  <meta name="description" content="Introduction:Relevant research and analysis on MOSFET(METAL-OXIDE-SEMICONDUCTOR FIELD-EFFECT TRANSISTOR), based on fundamental function and structure ">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Project Summary">
+  <meta property="og:site_name" content="Ty&#39;s blog">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight-default.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/comment.css" media="screen" type="text/css">
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-sham.min.js"></script>
+  <![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+  
+    <script src="/js/marked.js"></script>
+    <script src="/js/comment.js"></script>
+    <script src="/js/timeago.min.js"></script>
+    <script src="/js/highlight.min.js"></script>
+	<script src="/js/spin.min.js"></script>
+  
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+<body>
+  <nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/">Ty&#39;s blog</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/About-Me" title="About me.">
+			  <i class="fa fa-user"></i>About Me
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+    <div class="content">
+      
+
+
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> Project Summary</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  		
+
+	  <h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction:"></a>Introduction:</h3><p>Relevant research and analysis on MOSFET(METAL-OXIDE-SEMICONDUCTOR FIELD-EFFECT TRANSISTOR), based on fundamental function and structure of MOSFET. Then build p-type MOSFET in COMSOL  MULTIPHYSICS and do relevant analysis.</p>
+<h3 id="Experimental-target"><a href="#Experimental-target" class="headerlink" title="Experimental target:"></a>Experimental target:</h3><p>(1)learn basic knowledge of semiconductor </p>
+<p>（a）Electron bands</p>
+<p>（b）Hole bands</p>
+<p>（c）Function of Doping</p>
+<p>&nbsp;&nbsp;&nbsp;(d) Characteristics of diode</p>
+<p>(2)understand function and structure of MOSFET</p>
+<p>(3)build the model of MOSFET and analyze</p>
+<h3 id="Methods"><a href="#Methods" class="headerlink" title="Methods:"></a>Methods:</h3><p>(1)Application of two software(COMSOL and MATLAB)</p>
+<p>(2)Searching  unknown relevant knowledge on the Internet</p>
+<p>(3)Learning to ask “Why” , brainstorming independently and finding the solution to the problems. </p>
+<h3 id="Experimental-process1–build-the-model-of-diode-in-COMSOL"><a href="#Experimental-process1–build-the-model-of-diode-in-COMSOL" class="headerlink" title="Experimental process1–build the model of diode in COMSOL:"></a>Experimental process1–build the model of diode in COMSOL:</h3><h3 id="Step1-setting-basic-parameters"><a href="#Step1-setting-basic-parameters" class="headerlink" title="Step1:setting basic parameters"></a>Step1:setting basic parameters</h3><table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Expression</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Va</td>
+<td>bias*sweep</td>
+<td>Applied voltage</td>
+</tr>
+<tr>
+<td>TI</td>
+<td>300[K]</td>
+<td>Lattic temperature</td>
+</tr>
+<tr>
+<td>Na</td>
+<td>1e15[1/cm^3]</td>
+<td>Acceptor concentration</td>
+</tr>
+<tr>
+<td>Nd</td>
+<td>1e15[1/cm^3]</td>
+<td>Donor concentration</td>
+</tr>
+<tr>
+<td>epsilonr_param</td>
+<td>11.8</td>
+<td>Relative permittivity</td>
+</tr>
+<tr>
+<td>Eg0_param</td>
+<td>1.12[V]</td>
+<td>Band gap</td>
+</tr>
+<tr>
+<td>chi0_param</td>
+<td>4.05[V]</td>
+<td>Electron affinity</td>
+</tr>
+<tr>
+<td>Ni</td>
+<td>1.25e10[1/cm^3]</td>
+<td>Intrinsic carrier concentration</td>
+</tr>
+<tr>
+<td>Nc_param</td>
+<td>Ni*exp(Eg0_param*e_const/(2*k_B_const*TI))</td>
+<td>Conduction band density of states</td>
+</tr>
+<tr>
+<td>Nv_param</td>
+<td>Ni*exp(Eg0_param*e_const/(2*k_B_const*TI))</td>
+<td>Valence band density of states</td>
+</tr>
+<tr>
+<td>taun_param</td>
+<td>1e-6[s]</td>
+<td>Electron lifetime</td>
+</tr>
+<tr>
+<td>taup_param</td>
+<td>taun_param</td>
+<td>Hole lifetime</td>
+</tr>
+<tr>
+<td>bias</td>
+<td>-4[V]</td>
+<td>Device bias</td>
+</tr>
+<tr>
+<td>sweep</td>
+<td>1</td>
+<td>Sweep parameter for gradually turning on bias</td>
+</tr>
+</tbody></table>
+<h3 id="Step2-build-diode-model-1D"><a href="#Step2-build-diode-model-1D" class="headerlink" title="Step2:build diode model (1D)"></a>Step2:build diode model (1D)</h3><p><img src="/2019/09/11/Project-Summary/1.png" alt="1.jpg"></p>
+<h3 id="Step3-results–carrier-concentration-semi-with-various-voltage-1V-1V"><a href="#Step3-results–carrier-concentration-semi-with-various-voltage-1V-1V" class="headerlink" title="Step3:results–carrier concentration(semi) with various voltage[-1V~1V]"></a>Step3:results–carrier concentration(semi) with various voltage[-1V~1V]</h3><center>Line Graph:Electron concentration(1/cm<sup>3</sup>)</center>
+<center>Line Graph:Hole concentration(1/cm<sup>3</sup>)</center>
+![2.jpg](Project-Summary/2.png)
+
+<p>Step4:research V-I graph in MATLAB</p>
+<p><img src="/2019/09/11/Project-Summary/3.png" alt="3.jpg"></p>
+<h3 id="Plot-graph1"><a href="#Plot-graph1" class="headerlink" title="Plot graph1:"></a>Plot graph1:</h3><p><img src="/2019/09/11/Project-Summary/4.png" alt="4.jpg"></p>
+<h3 id="Plot-graph2"><a href="#Plot-graph2" class="headerlink" title="Plot graph2:"></a>Plot graph2:</h3><p><img src="/2019/09/11/Project-Summary/5.png" alt="5.jpg"></p>
+<h3 id="Experimental-process2–build-the-model-of-MOSFET-in-COMSOL"><a href="#Experimental-process2–build-the-model-of-MOSFET-in-COMSOL" class="headerlink" title="Experimental process2–build the model of MOSFET in COMSOL:"></a>Experimental process2–build the model of MOSFET in COMSOL:</h3><p>Step1:setting basic parameter in advanced.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Expression</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Chi_ox</td>
+<td>4.1[V]</td>
+<td>Work function of oxide</td>
+</tr>
+<tr>
+<td>D_B_Doping</td>
+<td>0.1[um]</td>
+<td>Depth of doping in base region</td>
+</tr>
+<tr>
+<td>D_B_junction_x</td>
+<td>D_S_junction_x</td>
+<td>Junction depth of base region in x-direction</td>
+</tr>
+<tr>
+<td>D_B_junction_y</td>
+<td>D_S_junction_y</td>
+<td>Junction depth of base  region in y-direction</td>
+</tr>
+<tr>
+<td>D_D_Doping</td>
+<td>0.1[um]</td>
+<td>Depth of doping in drain region</td>
+</tr>
+<tr>
+<td>D_D_junction_x</td>
+<td>D_S_junction_x</td>
+<td>Junction depth of drain region in x-direction</td>
+</tr>
+<tr>
+<td>D_D_junction_y</td>
+<td>D_S_junction_y</td>
+<td>Junction depth of drain region in y-direction</td>
+</tr>
+<tr>
+<td>d_ox</td>
+<td>30[nm]</td>
+<td>Thickness of oxide</td>
+</tr>
+<tr>
+<td>D_S_Doping</td>
+<td>0.1[um]</td>
+<td>Depth of doping in source region</td>
+</tr>
+<tr>
+<td>D_S_junction_x</td>
+<td>0.2[um]</td>
+<td>Junction depth of source region in x-direction</td>
+</tr>
+<tr>
+<td>D_S_junction_y</td>
+<td>0.25[um]</td>
+<td>Junction depth of source region in y-direction</td>
+</tr>
+<tr>
+<td>D_total</td>
+<td>0.7[um]</td>
+<td>Total depth</td>
+</tr>
+<tr>
+<td>D_Well</td>
+<td>0.35[um]</td>
+<td>Depth of the well</td>
+</tr>
+<tr>
+<td>D_Well_junction</td>
+<td>0.35[um]</td>
+<td></td>
+</tr>
+<tr>
+<td>epsilon_ox</td>
+<td>4.5</td>
+<td>Relative permittivity of oxide layer</td>
+</tr>
+<tr>
+<td>N_B</td>
+<td>1e20[1/cm^3]</td>
+<td>Base region doping</td>
+</tr>
+<tr>
+<td>N_background</td>
+<td>1e17[1/cm^3]</td>
+<td>Background p-doping</td>
+</tr>
+<tr>
+<td>N_D</td>
+<td>1e20[1/cm^3]</td>
+<td>Drain region doping</td>
+</tr>
+<tr>
+<td>N_S</td>
+<td>1e20[1/cm^3]</td>
+<td>Source region doping</td>
+</tr>
+<tr>
+<td>N_Well</td>
+<td>N_background*2</td>
+<td>Well region doping</td>
+</tr>
+<tr>
+<td>V_B</td>
+<td>V_S</td>
+<td>Base voltage</td>
+</tr>
+<tr>
+<td>V_D</td>
+<td>-10[mV]</td>
+<td>Drain voltage</td>
+</tr>
+<tr>
+<td>V_G</td>
+<td>-1[V]</td>
+<td>Gate voltage</td>
+</tr>
+<tr>
+<td>V_S</td>
+<td>0[V]</td>
+<td>Source voltage</td>
+</tr>
+<tr>
+<td>W_B</td>
+<td>W_S</td>
+<td>Width of base contact</td>
+</tr>
+<tr>
+<td>W_B_Doping</td>
+<td>0.6[um]</td>
+<td>Width of drain contact</td>
+</tr>
+<tr>
+<td>W_D</td>
+<td>W_S</td>
+<td>Width of doping in drain region</td>
+</tr>
+<tr>
+<td>W_D_Doping</td>
+<td>0.6[um]</td>
+<td>Width of doping in drain region</td>
+</tr>
+<tr>
+<td>W_G</td>
+<td>1.6[um]</td>
+<td>Width of  gate contact</td>
+</tr>
+<tr>
+<td>W_gap_BS</td>
+<td>1[um]</td>
+<td>Width between base</td>
+</tr>
+<tr>
+<td>W_gap_GD</td>
+<td>0.2[um]</td>
+<td>Width between  gate an</td>
+</tr>
+<tr>
+<td>W_gap_SG</td>
+<td>0.2[um]</td>
+<td>Width between source</td>
+</tr>
+<tr>
+<td>W_S</td>
+<td>0.5[um]</td>
+<td>Width of source contact</td>
+</tr>
+<tr>
+<td>W_S_Doping</td>
+<td>0.6[um]</td>
+<td>Width of doping in source</td>
+</tr>
+<tr>
+<td>W_total</td>
+<td>W_B+W_gap_BS+W_S+W_gap_SG+W_G+W_gap_GD+W_D</td>
+<td>Total width</td>
+</tr>
+</tbody></table>
+<p>Step2:<strong>create model based on following graph to create p-type MOSFET</strong></p>
+<p><img src="/2019/09/11/Project-Summary/6.jpg" alt="6.jpg"></p>
+<h3 id="Completed-MOSFET-model"><a href="#Completed-MOSFET-model" class="headerlink" title="Completed MOSFET model"></a>Completed MOSFET model</h3><p><img src="/2019/09/11/Project-Summary/7.png" alt="7.jpg"></p>
+<p>Step3:<strong>regulate all needed area</strong></p>
+<p><img src="/2019/09/11/Project-Summary/8.png" alt="8.jpg"></p>
+<p>For instance(Continuity):</p>
+<p><img src="/2019/09/11/Project-Summary/9.png" alt="9.jpg"></p>
+<p>Step4:<strong>set Mash-size</strong></p>
+<p><img src="/2019/09/11/Project-Summary/10.png" alt="10.jpg"></p>
+<p>Step5:<strong>get results hole concentration (with V_G=-1V)</strong></p>
+<p><img src="/2019/09/11/Project-Summary/11.png" alt="11.jpg"></p>
+<p><strong>As can be seen from the above graph, p-type area has higher hole concentration, whereas, n-type area has low hole concentration.</strong></p>
+<p><strong>Then I focused on researching  the electron concentration below gate with different voltage across the gate. So, firstly,  V-I graph could be gained from this semiconductor.</strong></p>
+<p><img src="/2019/09/11/Project-Summary/12.png" alt="12.jpg"></p>
+<p><strong>As can be inferred from the above graph, this MOSFET could allow the flow of current between the voltage -3V and -2V</strong></p>
+<p>In the range of voltage(-1V~1V), It could be observed the electron concentration below the gate with different voltage.</p>
+<p><img src="/2019/09/11/Project-Summary/13.png" alt="13.jpg"></p>
+<p><img src="/2019/09/11/Project-Summary/14.png" alt="14.jpg"></p>
+<p>When V_G = -1V<br>It could be observed clearly that it had no channel between two p-type areas below the gate, so it had no current.</p>
+<p>When voltage=-2V,it could be observed that it has a thin channel which has high hole concentration,this MOSFET could have electricity under this voltage.</p>
+<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges"></a>Challenges</h3><p>(1)The utilization of unfamiliar software to solve problems.</p>
+<p>(1)    Using complicated mathematics to solve practical problems.</p>
+<p>(2)    Use limited time and courses to learn and apply the knowledge of MOSFET as much as possible.</p>
+<h3 id="How-did-I-overcome-them"><a href="#How-did-I-overcome-them" class="headerlink" title="How did I overcome them"></a>How did I overcome them</h3><p>(1)When facing with unfamiliar programs I have never learned<br>before, I read the programs word for word and tried my best to understand the meaning and function of each part. I also debug the error feedback through searching the methods online. I do develop the ability to get the answer to the question on my own and build the confidence to continue studying in this field. </p>
+<p>(2)Besides, when I came across some difficulties other than programming, I would research relevant knowledge on the internet,  it is the most efficient way for me to solve it.</p>
+<p>(3) I also read some relevant reference books to broaden my physical knowledge like (The Feynman lectures on physics, especially for the Volume </p>
+<h3 id="What-was-the-most-interesting-part-of-my-project"><a href="#What-was-the-most-interesting-part-of-my-project" class="headerlink" title="What was the most interesting part of my project?"></a>What was the most interesting part of my project?</h3><p>When I met some physical quantities and formulas to the software COMSOL, all of these data plotted to physical model and mathematical graph. I could observe the shape in different dimension, which was helpful for me to understand more clearly for the properties of MOSFET. What’s more, the software of MATLAB could transfer the detailed physical data to more clear and accurate graphs. From these two software, I have seen how powerful for people to use these advanced applicants to solve problems. Besides, object of the image indeed could bring more interests to me to study and understand. </p>
+<p>Through working on this project, I have learned how to do self study and got the spirit to say ’why’ for every problems or situations and the confidence to figure them out . These methods would be helpful not only for my academic abilities,but also be useful tools to do almost everything , and I also look forward to exploring more in the field of electrical engineering.</p>
+<p><a href="/2019/09/11/Project-Summary/t.mph">Click here to download my data file</a></p>
+	  
+	</div>
+
+	<!-- recommended posts -->
+	
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+        
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_more" data-cmd="more"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+        <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+        <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+        <a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a>
+        <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+        <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+    </div>
+    <script>
+        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+
+
+        
+
+    
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+    	 
+	 <div id="comment-thread"></div>
+	 <div id="loading-spin"></div>
+	 <script type="text/javascript">
+	   getComments({
+           type: "github" ? "github" : "github",       
+	       user: "wzpan",
+	       repo: "hexo-theme-freemind-blog",
+		   client_id: "bf7d4ba11877db88543e",
+           client_secret: "bff8a6b06b745c0bfcdccbe225623ea8e2a057bb",
+		   no_comment: "No comments yet. Press the button and go to comment now!",
+		   go_to_comment: "Go to comment",
+		   no_issue: "no_issue",
+		   issue_title: "Project Summary",
+		   issue_id: "",
+		   btn_class: "btn btn-primary",
+		   comments_target: "#comment-thread",
+		   loading_target: "#loading_spin"
+		   });
+	 </script>
+  
+</section>
+
+
+	</div> <!-- col-md-9/col-md-12 -->
+		
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2019-09-11 
+	</div>
+	
+
+	<!-- categories -->
+    
+
+	<!-- tags -->
+	
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	</div>
+		
+
+</div><!-- row -->
+
+
+
+    </div>
+  </div>
+  <div class="container-narrow">
+    <footer> <p>
+  &copy; 2019 Ty
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+
+
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+
+<!-- syntax highlighting -->
+
+  <script>
+  marked.setOptions({
+    highlight: function (code, lang) {
+        return hljs.highlightAuto(code).value;
+    }
+  });
+  function Highlighting(){
+    var markdowns = document.getElementsByClassName('markdown');
+    for(var i=0;i<markdowns.length;i++){
+        if(markdowns[i].innerHTML) markdowns[i].innerHTML =marked(markdowns[i].innerHTML);
+    }
+  }
+  window.addEventListener('DOMContentLoaded', Highlighting, false);
+  window.addEventListener('load', Highlighting, false);
+  </script>
+
+
+</body>
+</html>
